@@ -253,7 +253,7 @@ int main(void) {
 	mcan_ext_filter_element_config_t stdFilter;
 	mcan_rx_fifo_config_t rxFifo0;
 	mcan_tx_buffer_config_t txBuffer;
-	uint8_t data[RNG_EXAMPLE_RANDOM_NUMBERS];
+	uint8_t data[18];
 	status_t status = kStatus_Fail;
 
 	/* Init output LED GPIO. */
